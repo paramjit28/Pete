@@ -1,0 +1,137 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+/* Header */
+header{
+  display: flex;
+  justify-content: center;
+}
+
+
+.imagetitle{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.imagetitle{
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+
+
+#portfolio{
+  display: flex;
+  justify-content: center;
+
+}
+
+section{
+  text-align: center;
+}
+
+
+
+#section_background{
+  padding: 1%;
+  text-align: center;
+}
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+}
+
+#pete{
+  display: flex;
+  justify-content: flex-end;
+}
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+/* Paragraphs */
+.paragraph {
+  text-align: left;
+  margin-left: 40%;
+
+}
+
+/* Links */
+a:link {
+   color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-right: 20px;
+  
+}
+
+#contacts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+}
+
+.contact{
+  margin-left: 45%;
+ 
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+  float: left;
+}
+
+
+
+
+#bullets{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 100px;
+
+  
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+

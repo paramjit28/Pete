@@ -17,40 +17,41 @@ h3 {
 }
 
 /* Header */
-header{
+header {
   display: flex;
   justify-content: center;
 }
 
 
-.imagetitle{
+.imagetitle {
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
 
-.imagetitle{
+.imagetitle {
   margin-top: 50px;
   margin-bottom: -50px;
 }
 
 
-#portfolio{
+#portfolio {
   display: flex;
   justify-content: center;
 
 }
 
-section{
+section {
   text-align: center;
 }
 
 
 
-#section_background{
+#section_background {
   padding: 1%;
   text-align: center;
 }
+
 /* Containers */
 div {
   background-color: #eae2b7;
@@ -58,10 +59,11 @@ div {
   width: 600px;
 }
 
-#pete{
+#pete {
   display: flex;
   justify-content: flex-end;
 }
+
 article {
   padding: 50px 0;
 }
@@ -73,14 +75,18 @@ article div {
 
 /* Paragraphs */
 .paragraph {
-  text-align: left;
+  text-align: center;
   margin-left: 40%;
 
 }
 
+#paragraph1 {
+  text-align: left;
+}
+
 /* Links */
 a:link {
-   color: #d62828;
+  color: #d62828;
 }
 
 a:hover {
@@ -89,19 +95,19 @@ a:hover {
 
 nav a {
   padding-right: 20px;
-  
+
 }
 
-#contacts{
+#contacts {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-left: 2%;
 }
 
-.contact{
+.contact {
   margin-left: 45%;
- 
+
 }
 
 /* Images */
@@ -120,18 +126,17 @@ img {
 
 
 
-#bullets{
+#bullets {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   text-align: left;
   padding-left: 100px;
 
-  
+
 }
 
 /* Footer */
 footer {
   text-align: center;
 }
-
